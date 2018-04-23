@@ -1,3 +1,6 @@
+<?php
+  defined('BASEPATH') OR exit('No direct script access allowed');
+?>
 <footer class="footer bg-dark">
     <div class="container">
       <div class="row">

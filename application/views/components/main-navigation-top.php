@@ -1,3 +1,6 @@
+<?php
+  defined('BASEPATH') OR exit('No direct script access allowed');
+?>
 <nav class="navbar navbar-light bg-light static-top">
     <div class="container">
     <a

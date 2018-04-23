@@ -1,3 +1,6 @@
+<?php
+  defined('BASEPATH') OR exit('No direct script access allowed');
+?>
 <div class="lista-operadoras">
     <center>
         <label class="label label-op" for="empresa">Operadora de interesse (marque quantas quiser)*</label>

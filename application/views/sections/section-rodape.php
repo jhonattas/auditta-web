@@ -1,3 +1,6 @@
+<?php
+  defined('BASEPATH') OR exit('No direct script access allowed');
+?>
 <div class="w-section rodape">
     <div class="w-container">
       <div class="texto-legal2">

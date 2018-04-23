@@ -1,3 +1,6 @@
+<?php
+  defined('BASEPATH') OR exit('No direct script access allowed');
+?>
 <div class="w-section meio">
     <div class="w-container">
       <div class="conteudo-meio formulario">

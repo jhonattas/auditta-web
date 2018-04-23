@@ -8,6 +8,11 @@ class Pages extends CI_Controller {
 	}
 
 	public function index() {
-		$this->load->view('homepage');
+		$bullets = json_decode(
+			file_get_contents('https://api.auditta.com.br/bullets')
+		);
+		$page_data['bullets'] = $bullets->bulletList;
+
+		$this->load->view('homepage', $page_data);
 	}
 }

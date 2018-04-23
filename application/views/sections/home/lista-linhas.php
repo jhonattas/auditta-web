@@ -1,3 +1,6 @@
+<?php
+  defined('BASEPATH') OR exit('No direct script access allowed');
+?>
 <div class="lista-linhas">
     <div style="padding:0 5px;">
         <label class="label" for="empresa">Quantidade de linhas</label>
