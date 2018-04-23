@@ -20,7 +20,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a href="<?php echo base_url() . 'sobre'; ?>" class="nav-link">
+                <a href="<?php echo base_url(); ?>" class="nav-link">
                     Quem Somos
                 </a>
             </li>

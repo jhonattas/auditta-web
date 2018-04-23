@@ -15,9 +15,13 @@ class Pages extends CI_Controller {
 
 		$this->load->view('homepage', $page_data);
 	}
+	
+	public function clients() {
+		$this->load->view('clients');
+	}
 
-	public function about() {
-		$this->load->view('about');
+	public function services() {
+		$this->load->view('services');
 	}
 
 	public function contact() {
