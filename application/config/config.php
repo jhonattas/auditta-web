@@ -23,7 +23,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost:8888/auditta_php/';
+if (isset($_SERVER['CI_ENV']) && $_SERVER['CI_ENV'] === 'development') {
+    $config['base_url'] = 'http://localhost:8888/auditta_php/';
+} else {
+    $config['base_url'] = 'https://auditta.com.br/';
+}
 
 /*
 |--------------------------------------------------------------------------
