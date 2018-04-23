@@ -58,9 +58,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<?php require_once('sections/section-topo.php'); ?>
 			<?php require_once('sections/section-meio.php'); ?>
 			<div class="w-section info">
-			<div class="w-container">
-				<?php require_once('components/home/bullets.php'); ?>
-			</div>
+        <div class="w-container">
+          <?php require_once('sections/home/bullets.php'); ?>
+        </div>
 			</div>
 			<?php require_once('sections/section-rodape.php');?>
 		</div>

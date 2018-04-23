@@ -39,7 +39,7 @@
 
                         <div class="form-campos">
                           <p>Receba o contato de um consultor:</p>
-                          <lista-operadoras></lista-operadoras>
+                          <?php require_once('home/lista-operadoras.php');?>
 
                           <div style="padding:5px;">
                             <div class="duplo">
@@ -88,8 +88,8 @@
                               </div>
                             </div>
                           </div>
-
-                          <lista-linhas></lista-linhas>
+                          
+                          <?php require_once('home/lista-linhas.php'); ?>
 
                           <div style="padding:5px;">
                             <input class="w-button bt-form" type="submit" value="analisar">
