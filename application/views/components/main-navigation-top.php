@@ -5,13 +5,13 @@
     <div class="container">
     <a
         class="navbar-brand"
-        href="/">
+        href="<?php echo base_url(); ?>">
       <b>AUDITTA</b>
     </a>
 
       <a
         class="btn"
-        href="/contato">
+        href="<?php echo base_url() . 'contato'; ?>">
       Contato
     </a>
     </div>

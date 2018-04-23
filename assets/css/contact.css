@@ -1,0 +1,29 @@
+.container {
+    max-width: 700px;
+  }
+
+
+  p, .label {
+    color: #0f6297 !important;
+  }
+
+  p {
+    text-transform: none !important;
+  }
+
+  .infoBlock {
+      margin-top: 1em;
+  }
+
+  .hero .nav, .hero.is-success {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .hero .subtitle {
+    padding: 3rem 0;
+    line-height: 1.5;
+  }
+
+  .buttons {
+    margin: 1rem 0 1.2rem;
+  }

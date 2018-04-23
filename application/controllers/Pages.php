@@ -15,4 +15,12 @@ class Pages extends CI_Controller {
 
 		$this->load->view('homepage', $page_data);
 	}
+
+	public function about() {
+		$this->load->view('about');
+	}
+
+	public function contact() {
+		$this->load->view('contact');
+	}
 }
