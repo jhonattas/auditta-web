@@ -254,7 +254,7 @@ p {
 .meio {
   padding-top: 5px;
   padding-bottom: 5px;
-  background-image: url('/static/images/overlay.png');
+  background-image: url('../img/overlay.png');
   background-position: 0% 0%, 3% 76%;
   background-size: auto, auto;
   background-repeat: repeat;
@@ -583,7 +583,7 @@ p {
 }
 
 .lista-linhas .label_op label {
-  background: url('/static/images/check_off.png') center bottom no-repeat rgba(255, 255, 255, 0.2);
+  background: url('../img/check_off.png') center bottom no-repeat rgba(255, 255, 255, 0.2);
   padding: 5px 0 28px 0;
   text-align: center;
   width: 100%;
@@ -598,7 +598,7 @@ p {
 /*.lista-linhas .label_op label .alinha { height:24px; text-align:center; vertical-align:middle; display:table-cell; line-height:18px;}*/
 
 .lista-linhas .label_op label:hover {
-  background: url('/static/images/check_off.png') center bottom no-repeat rgba(255, 255, 255, 0.3);
+  background: url('../img/check_off.png') center bottom no-repeat rgba(255, 255, 255, 0.3);
 }
 
 .lista-linhas .label_op input[type="radio"] {
@@ -610,7 +610,7 @@ p {
 }
 
 .lista-linhas .label_op input[type="radio"]:checked+label {
-  background: url('/static/images/check_on.png') center bottom no-repeat #FFF;
+  background: url('../img/check_on.png') center bottom no-repeat #FFF;
   color: #333;
 }
 
