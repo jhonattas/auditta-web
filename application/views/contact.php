@@ -35,6 +35,8 @@
     <link rel="stylesheet" type="text/css"    href="<?php echo base_url('assets/css/main-navigation-top.css')?>">
     <link rel="stylesheet" type="text/css"    href="<?php echo base_url('assets/css/contact.css')?>">
 
+    <meta name="yandex-verification" content="58ca2b9f5dac7428" />
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113426332-1"></script>
     <script>

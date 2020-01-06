@@ -33,6 +33,7 @@
     <link rel="stylesheet" type="text/css"    href="<?php echo base_url('assets/css/webflow.css')?>">
     <link rel="stylesheet" type="text/css"    href="<?php echo base_url('assets/css/auditta.webflow.css')?>">
     <link rel="stylesheet" type="text/css"    href="<?php echo base_url('assets/css/main-navigation-top.css')?>">
+    <meta name="yandex-verification" content="58ca2b9f5dac7428" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113426332-1"></script>
