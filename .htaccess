@@ -15,5 +15,5 @@ RewriteCond %{SCRIPT_FILENAME} !-f
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteRule ^(.*)$ index.php?route=/$1 [L,QSA]
 
-SetEnv URL_BASE "http://auditta.com.br/"
+Redirect temp /soucriador https://auditta.digitalsigncertificadora.com.br/
 SetEnv mode "production"
